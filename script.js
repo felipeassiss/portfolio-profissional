@@ -42,3 +42,12 @@ if (logoElement) {
 
     setTimeout(typeWriter, 300); 
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.wave-text').forEach(el => {
+        const text = el.innerText;
+        el.innerHTML = text.split('').map((char, i) => 
+            `<span style="animation-delay: ${i * 0.1}s">${char === ' ' ? '&nbsp;' : char}</span>`
+        ).join('');
+    });
+});
