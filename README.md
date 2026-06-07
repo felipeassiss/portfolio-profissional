@@ -14,7 +14,8 @@ O portfólio apresenta informações sobre minha formação, interesses profissi
 
 - `index.html` — Página inicial com apresentação profissional
 - `projetos.html` — Página com projetos e filtro em JavaScript
-- `contato.html` — Página de contato com formulário demonstrativo
+- `contato.html` — Página de contato com redirecionamento para comunicação
+- `sobre.html` — Página com informações sobre mim
 
 ## Tecnologias utilizadas
 
@@ -28,7 +29,4 @@ O portfólio apresenta informações sobre minha formação, interesses profissi
 - Navegação entre múltiplas páginas
 - Uso de tags semânticas
 - Cards de informações e projetos
-- Filtro de projetos com JavaScript
 - Alternância entre modo claro e modo escuro
-- Formulário demonstrativo de contato
-- Estrutura organizada em pastas
