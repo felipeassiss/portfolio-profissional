@@ -3,44 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felipe Assis | Portfolio</title>
+    <title>Portfólio | Felipe</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="hero">
-        
-        <nav class="nav-bar top-bar fade-in-element">
-            <span class="role" data-en="PORTFOLIO" data-pt="PORTFÓLIO">PORTFÓLIO</span>
-            <div class="links">
-                <a href="index.html" style="text-decoration: underline;" data-en="ABOUT" data-pt="SOBRE">ABOUT</a>
-                <a href="projetos.html" data-en="WORK" data-pt="TRABALHOS">WORK</a>
-                <a href="contato.html" data-en="CONTACTS" data-pt="CONTATOS">CONTACTS</a>
-            </div>
-        </nav>
-
-        <div class="title-container" id="interactive-title">
-            <h1 class="huge-title">
-                <span class="felipe" id="type-felipe"></span>
-                <span class="assis" id="type-assis"></span>
-            </h1>
-            
-            <div class="about-snippet">
-                <p data-en="I am a Creative Developer passionate about brutalist design, typography, and crafting immersive digital experiences. (Click the name again to close)" 
-                   data-pt="Sou um Desenvolvedor Criativo apaixonado por design brutalista, tipografia e por criar experiências digitais imersivas. (Clique no nome para fechar)">
-                    I am a Creative Developer passionate about brutalist design, typography, and crafting immersive digital experiences. (Click the name again to close)
-                </p>
-            </div>
+    <header>
+        <div class="navbar">
+            <div class="logo">&lt;felipe_assis/&gt;</div>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="projetos.html">Projetos</a>
+                <button id="theme-toggle" class="btn-theme">Tema Claro</button>
+            </nav>
         </div>
+    </header>
 
-        <nav class="nav-bar bottom-bar fade-in-element">
-            <div class="links">
-                <a href="https://github.com/felipeassiss" target="_blank" data-en="GITHUB" data-pt="GITHUB">GITHUB</a>
-                <a href="https://linkedin.com/in/felipe-assis-b06228263" target="_blank" data-en="LINKEDIN" data-pt="LINKEDIN">LINKEDIN</a>
+    <main class="container">
+        <section class="hero fade-in">
+            <h1>Olá, eu me chamo <span class="highlight">Felipe!</span></h1>
+            <h2>Cientista da Computação em formação</h2>
+            <p>Graduando pela CESAR School, tenho forte interesse no desenvolvimento de software e em Machine Learning. Gosto de participar de projetos que causem impacto real e que desafiem minhas habilidades!</p>
+            <div class="hero-buttons">
+                <a href="projetos.html" class="btn">Ver Projetos</a>
             </div>
-            <span class="lang" id="lang-toggle" style="cursor: pointer;">EN / PT</span>
-        </nav>
+        </section>
 
+        <section class="skills-section fade-in delay-1">
+            <h2>Tecnologias que eu uso</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React</div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>Portfólio construído com HTML, CSS e JavaScript.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
