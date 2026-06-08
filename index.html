@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Felipe</title>
-    
+    <title>Início | Felipe</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="navbar">
@@ -27,32 +31,62 @@
     </header>
 
     <main class="container">
-        <section class="hero fade-in">
-            <h1>Olá, eu me chamo <span class="highlight">Felipe!</span></h1>
-            <h2>Cientista da Computação em formação<span class="dots"><span>.</span><span>.</span><span>.</span></span></h2>
-            <p>Graduando pela CESAR School, tenho forte interesse no desenvolvimento de software e em Machine Learning. Gosto de participar de projetos que causem impacto real e que desafiem minhas habilidades!</p>
-            <div class="hero-buttons">
-                <a href="projetos.html" class="btn">Ver Projetos</a>
-            </div>
-        </section>
+        <div class="bento-grid fade-in">
+            <section class="bento-item hero-card">
+                <h1>Bem-vindo!</h1>
+                <h2>Olá, eu me chamo Felipe \o/</h2>
+                <p>Graduando em Ciência da Computação pela CESAR School, tenho forte interesse no desenvolvimento de software e em Machine Learning. Gosto de participar de projetos que causem impacto real e que desafiem minhas habilidades!</p>
+                <div class="hero-buttons">
+                    <a href="projetos.html" class="btn">Meus Projetos</a>
+                </div>
+            </section>
 
-        <section class="skills-section fade-in delay-1">
-            <h2>Tecnologias que eu uso</h2>
-            <div class="skills-grid">
-                <div class="skill-item"><i class="devicon-python-plain"></i> Python</div>
-                <div class="skill-item"><i class="devicon-java-plain"></i> Java</div>
-                <div class="skill-item"><i class="devicon-html5-plain"></i> HTML</div>
-                <div class="skill-item"><i class="devicon-css3-plain"></i> CSS</div>
-                <div class="skill-item"><i class="devicon-javascript-plain"></i> JavaScript</div>
-                <div class="skill-item"><i class="devicon-react-original"></i> React</div>
-            </div>
-        </section>
+            <section class="bento-item skills-card">
+                <h3>Tech Stack</h3>
+                <div class="skills-mini-grid">
+                    <div class="skill-tag"><i class="devicon-python-plain"></i></div>
+                    <div class="skill-tag"><i class="devicon-java-plain"></i></div>
+                    <div class="skill-tag"><i class="devicon-javascript-plain"></i></div>
+                    <div class="skill-tag"><i class="devicon-react-original"></i></div>
+                    <div class="skill-tag"><i class="devicon-html5-plain"></i></div>
+                    <div class="skill-tag"><i class="devicon-css3-plain"></i></div>
+                </div>
+            </section>
+
+            <section class="bento-item location-card">
+                <div class="globe-icon">
+                    <i class="fas fa-globe-americas"></i>
+                </div>
+                <h3>Baseado em</h3>
+                <p class="city-text">Recife, PE</p>
+                <p class="timezone-text">Brasil • UTC-3</p>
+            </section>
+
+            <section class="bento-item working-card">
+                <h3>Atualmente trabalhando em</h3>
+                <div class="current-project">
+                    <div class="project-info">
+                        <h4>Hyrox Planner</h4>
+                        <p>Hyrox Planner será uma aplicação para planejar e orientar pessoas em treinamento de Hyrox.</p>
+                    </div>
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span> Em desenvolvimento
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>
         <p>Portfólio construído com HTML, CSS e JavaScript.</p>
     </footer>
 
+
+
     <script src="script.js"></script>
+
+
+
 </body>
+
 </html>
