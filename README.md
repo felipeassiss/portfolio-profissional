@@ -30,3 +30,6 @@ O portfólio apresenta informações sobre minha formação, interesses profissi
 - Uso de tags semânticas
 - Cards de informações e projetos
 - Alternância entre modo claro e modo escuro
+
+## Acesso
+- https://felipeassiss.github.io/portfolio-profissional/
